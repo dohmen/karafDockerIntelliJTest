@@ -47,7 +47,7 @@ org.osgi.service.event.Event [topic=some/topic] {key1=test123, subject=Subject:
 
 In order to work with Docker from within IDEA you first  have to configure a Docker daemon connection:
 
-![Docker settings](doc\Docker%20settings%20IDEA.png)
+![Docker settings](doc/Docker%20settings%20IDEA.png)
 
 Jetbrains describes these settings there: https://www.jetbrains.com/help/idea/docker.html
 
@@ -69,7 +69,7 @@ ENTRYPOINT ["/opt/apache-karaf/bin/karaf"]
 
 When IDEA discovers a new Dockerfile you'll be asked for settings:
 
-![Dockerfile settings](doc\Dockerfile%20settings%20IDEA.png)
+![Dockerfile settings](doc/Dockerfile%20settings%20IDEA.png)
 
 You should then be able to use this newly created run configuration to run your application.
 
