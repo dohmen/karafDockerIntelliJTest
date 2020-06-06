@@ -1,0 +1,12 @@
+<features
+        name="Demo Features"
+        xmlns="http://karaf.apache.org/xmlns/features/v1.3.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.3.0 http://karaf.apache.org/xmlns/features/v1.3.0">
+
+    <feature name="karafDockerIntelliJTest" version="1.0.0" description="Features to be installed" install="auto">
+        <feature>scr</feature>
+        <bundle start-level="100">file:///tmp/karafDockerIntelliJTest.jar</bundle>
+    </feature>
+
+</features>
